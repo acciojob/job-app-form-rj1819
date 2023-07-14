@@ -1,16 +1,56 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <head>
+        <h1>job application form</h1>
+    </head>
+      <label for="name">Name</label>
+      <input type="text"name="name"id="name">
+      <br><br>
 
+         <label for="email">email</label>
+       <input type="email" name="email" id="email" required>
+       <br><br>
+
+
+       <label for="gender">gender</label>
+
+       <input type="radio" name="male" id="male" required>
+       <label for="male">male</label>
+
+       
+       <input type="radio" name="male" id="female" required>
+       <label for="female">female</label>
+       <br><br>
+
+       <label for="brands">laptop brands</label>
+       <select name="brands" id="brands">
+        <option value="apple">apple</option>
+        <option value="asus">asus</option>    
+           <option value="ap">ap</option>  
+           
+           </select>
+           <br><br>
+               <label for="age">age</label>
+    <input type="number" name="age" id="age" min="10" max="50" required>
+    <br><br>
+    <label for="dob">dob</label>
+    <input type="date" name="dob" id="dob" required><br><br>
+    <label for="pass">password</label>
+    <input type="password" name="pass" id="pass" required>
+    <br><br>
+    
+    <input type="button" value="click me">
+
+
+
+
+        
 </body>
-
 </html>
